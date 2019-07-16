@@ -2,3 +2,6 @@ node_modules/
 dist/
 /npm-debug.log
 yarn-error.log
+*~
+.\#*
+site/layouts/partials/.#contact-form.html
