@@ -5,3 +5,4 @@ yarn-error.log
 *~
 .\#*
 site/layouts/partials/.#contact-form.html
+.DS_Store

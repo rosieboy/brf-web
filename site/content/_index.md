@@ -1,21 +1,18 @@
 ---
-title: Great coffee with a twist
-subtitle: Support sustainable farming while enjoying a cup
+title: BRF Bryggudden 1
+subtitle: Högst och vackrast i Karlstad
 image: /img/home-jumbotron.jpg
 blurb:
-  heading: Why Kaldi?
+  heading: Kort om denna sida
   text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Välkommen till BRF Bryggudden 1:s nya webbplats. Här presenterar vi information
+    som är av intresse för föreningens medlemmar. Se till att prenumerera på vårt 
+    nyhetsbrev så du inte missar något viktigt.
 intro:
-  heading: What we offer
+  heading: Vilka är vi?
   text: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+    BRF Bryggudden 1 är en bostadsrättsförening precis vid vattnet i Karlstads inre hamn. 
+    I vårt 20 våningar höga hus finns 62 lägenheter. 
 products:
   - image: img/illustrations-coffee.svg
     text: >-
@@ -31,7 +28,7 @@ products:
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
 values:
-  heading: Our values
+  heading: Våra värderingar
   text: >-
     Coffee is an amazing part of human culture but it has a dark side too – one
     of colonialism and mindless abuse of natural resources and human lives. We
