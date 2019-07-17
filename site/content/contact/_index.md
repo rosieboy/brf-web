@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-logo: /img/bryggudden_from_lofbergs_small.jpg
+logo: /img/bryggudden_sunset_2.jpg
 contact_entries:
   - heading: Vår adress
     text: Redaretorget 1 652 16 Karlstad
