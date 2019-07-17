@@ -1,18 +1,18 @@
 ---
 title: BRF Bryggudden 1
 subtitle: Högst och vackrast i Karlstad
-image: /img/home-jumbotron.jpg
+image: /img/bryggudden_winter_sunrise.jpg
 blurb:
   heading: Kort om denna sida
   text: >-
-    Välkommen till BRF Bryggudden 1:s nya webbplats. Här presenterar vi information
-    som är av intresse för föreningens medlemmar. Se till att prenumerera på vårt 
-    nyhetsbrev så du inte missar något viktigt.
+    Välkommen till BRF Bryggudden 1:s nya webbplats. Här presenterar vi
+    information som är av intresse för föreningens medlemmar. Se till att
+    prenumerera på vårt  nyhetsbrev så du inte missar något viktigt.
 intro:
   heading: Vilka är vi?
   text: >-
-    BRF Bryggudden 1 är en bostadsrättsförening precis vid vattnet i Karlstads inre hamn. 
-    I vårt 20 våningar höga hus finns 62 lägenheter. 
+    BRF Bryggudden 1 är en bostadsrättsförening precis vid vattnet i Karlstads
+    inre hamn.  I vårt 20 våningar höga hus finns 62 lägenheter. 
 products:
   - image: img/illustrations-coffee.svg
     text: >-
