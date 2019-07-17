@@ -18,13 +18,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Sidor"
+    label: "Pages"
     files:
       - file: "site/content/_index.md"
-        label: "Hemsida"
-        name: "hem"
+        label: "Home Page"
+        name: "home"
         fields:
-          - {label: Titel, namn: title, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Blurb", name: blurb, widget: object, fields: [
