@@ -4,4 +4,4 @@ title: från content/hej/_index.md
 subtitle: Snart semester
 ---
 
-Detta är content/hej/_index.md
+Detta är content/hej/hej/_index.md
