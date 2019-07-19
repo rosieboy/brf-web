@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		{{ .Content }}
+
+		<div class="flex-ns mb3">
+	    {{ range .Pages }}
+				<div>
+					<h4 class="f4 b lh-title mb2 primary">{{ .Type }}</h4>
+          <p>{{ .Title }}</p>
+          <!-- <p>{{ .fileurl }}</p> -->
+				</div>
+			{{ end }}
+		</div>
+
+	</div>
+</div>
+
+{{ end }}
