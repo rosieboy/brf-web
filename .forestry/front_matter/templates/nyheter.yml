@@ -1,4 +1,26 @@
 ---
 label: Nyheter
 hide_body: false
-fields: []
+fields:
+- name: titel
+  type: text
+  config:
+    required: false
+  label: Titel
+  description: Titel
+- name: beskrivning
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Beskrivning
+  description: Beskrivning
+- name: fil
+  type: file
+  config:
+    maxSize: 250
+  label: Fil
+  description: Fil
