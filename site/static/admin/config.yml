@@ -82,3 +82,23 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+      - file: "site/content/styrelse/_index.md"
+        label: "Styrelse"
+        name: "styrelse"
+        fields:
+          - {label: Namn, name: namn, widget: string}
+          - {label: Funktion, name: funktion, widget: string}
+          - {label: Lägenhet, name: lagenhet, widget: string}
+          - {label: Mobil, name: mobil, widget: string}
+          - {label: E-post, name: epost, widget: string}
+          - {label: Bild, name: bild, widget: image}
+          - label: Styrelsemedlemmar
+            name: styrelsemedlemmar
+            widget: list
+            fields:
+              - label: Namn
+                name: namn
+                widget: string
+              - label: Funktion
+                name: funktion
+                widget: string
