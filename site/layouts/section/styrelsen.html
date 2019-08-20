@@ -3,16 +3,17 @@
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+		<img src="{{ .Params.bild }}" alt="" class="db w4 center pv4">
+		<p>Organisationsnummer: "{{ .Params.orgnummer }}"</p>
 
 		{{ .Content }}
 
 		<div class="flex-ns mb3">
 	        	{{ range .Params.styrelsemedlemmar }}
-				<div>
+				<!-- <div> -->
 					<h4 class="f4 b lh-title mb2 primary">{{ .funktion }}</h4>
 					<p>{{ .namn }}</p>
-				</div>
+				<!-- </div> -->
 			{{ end }}
 		</div>
 
