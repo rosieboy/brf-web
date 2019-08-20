@@ -108,3 +108,6 @@ collections: # A list of collections the CMS should be able to edit
               - label: E-post
                 name: epost
                 widget: string
+              - label: Bild
+                name: personbild
+                widget: image
