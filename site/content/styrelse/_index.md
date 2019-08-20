@@ -8,5 +8,10 @@ styrelsemedlemmar:
     lagenhet: '1401'
     mobil: 070-1234567
     namn: Nisse Äppeltoft
+  - epost: ff@me.com
+    funktion: Styrelseordförande
+    lagenhet: '1802'
+    mobil: 070-12345678
+    namn: Filip Flintstone
 ---
 
