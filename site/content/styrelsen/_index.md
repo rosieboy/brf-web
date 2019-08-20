@@ -8,10 +8,12 @@ styrelsemedlemmar:
     lagenhet: '1802'
     mobil: 070-12345678
     namn: Filip Flintstone
+    personbild: /img/about-direct-sourcing.jpg
   - epost: nisse.appel@acme.com
     funktion: Ledamot
     lagenhet: '1401'
     mobil: 070-1234567
     namn: Nisse Äppeltoft
+    personbild: /img/about-sustainable-farming.jpg
 ---
 
