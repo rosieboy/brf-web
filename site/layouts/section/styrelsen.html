@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		<img src="{{ .Params.bild }}" alt="" class="db w4 center pv4">
+		<p>Föreningens namn: {{ .Params.fnamn }}</p>
+		<p>Organisationsnummer: {{ .Params.orgnummer }}</p>
+
+		{{ .Content }}
+
+		<!-- <div class="flex-ns mb3"> -->
+		{{ range .Params.styrelsemedlemmar }}
+		<!-- <div> -->
+		<article class="center mw5 mw6-ns hidden ba mv4">
+			<h1 class="f4 bg-black white mv0 pv2 ph3">{{ .namn }} – {{ .funktion }}</h1>
+			<div class="pa3 bt">
+				<p class="f6 f5-ns lh-copy measure mv0">
+					<img src="{{ .personbild }}" alt="" class="db w4 center pv4">
+					Lägenhet: {{ .lagenhet }}<br />
+					Mobilnummer: {{ .mobil }}<br />
+					E-post: {{ .epost }}</br>
+				</p>
+			</div>
+		</article>
+
+		<!-- <h4 class="f4 b lh-title mb2 primary">{{ .funktion }}</h4>
+					<img src="{{ .personbild }}" alt="" class="db w4 center pv4">
+					{{ .namn }}<br/>
+					Lägenhet: {{ .lagenhet }}<br/>
+					Mobilnummer: {{ .mobil }}<br/>
+					E-post: {{ .epost }}</br> -->
+		<!-- </div> -->
+		{{ end }}
+		<!-- </div> -->
+
+		{{ partial "contact-form" . }}
+
+	</div>
+</div>
+
+{{ end }}

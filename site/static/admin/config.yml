@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
-        label: "Contact Page"
+        label: "Kontaktsida"
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: text
                 widget: text
       - file: "site/content/products/_index.md"
-        label: "Products Page"
+        label: "Produkter"
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
@@ -70,7 +70,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
       - file: "site/content/values/_index.md"
-        label: "Values Page"
+        label: "Värdesida"
         name: "values"
         fields:
           - {label: Title, name: title, widget: string}
@@ -82,3 +82,32 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+      - file: "site/content/styrelsen/_index.md"
+        label: "Styrelse"
+        name: "styrelse"
+        fields:
+          - {label: Föreningens namn, name: fnamn, widget: string}
+          - {label: Organisationsnummer, name: orgnummer, widget: string}
+          - {label: Bild, name: bild, widget: image}
+          - label: Styrelsemedlemmar
+            name: styrelsemedlemmar
+            widget: list
+            fields:
+              - label: Namn
+                name: namn
+                widget: string
+              - label: Funktion
+                name: funktion
+                widget: string
+              - label: Lägenhet 
+                name: lagenhet
+                widget: string
+              - label: Mobil
+                name: mobil
+                widget: string
+              - label: E-post
+                name: epost
+                widget: string
+              - label: Bild
+                name: personbild
+                widget: image
