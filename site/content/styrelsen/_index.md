@@ -15,5 +15,11 @@ styrelsemedlemmar:
     mobil: 070-1234567
     namn: Nisse Äppeltoft
     personbild: /img/about-sustainable-farming.jpg
+  - epost: kalle.kula@acme.com
+    funktion: Ledamot
+    lagenhet: '2101'
+    mobil: 070-12345679
+    namn: Andy Pandy
+    personbild: /img/about-sustainable-farming.jpg  
 ---
 
