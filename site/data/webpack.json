@@ -1,0 +1,11 @@
+{
+  "cms": {
+    "js": "cms.js"
+  },
+  "main": {
+    "js": "main.js"
+  },
+  "": {
+    "html": "admin/index.html"
+  }
+}
