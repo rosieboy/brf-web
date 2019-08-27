@@ -9,3 +9,6 @@ site/layouts/partials/.#contact-form.html
 .DS_Store
 site/layouts/partials/newsletter-form.html.old
 site/layouts/partials/newsletter-form 2.html
+site/data/webpack.json
+/npm-debug.log
+yarn-error.log
