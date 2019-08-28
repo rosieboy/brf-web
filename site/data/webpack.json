@@ -3,9 +3,15 @@
     "js": "cms.js"
   },
   "main": {
+    "css": "main.css",
     "js": "main.js"
   },
   "": {
-    "html": "admin/index.html"
+    "html": "admin/index.html",
+    "": "fonts/.keep",
+    "json": [
+      "7dc690e026e35a031abb.hot-update.json",
+      "9e5f88f95333cd46ed6f.hot-update.json"
+    ]
   }
 }
