@@ -3,7 +3,8 @@ title: Julfest
 date: 2018-11-04T15:04:00.000Z
 description: >-
   Sommar, sol och värme känns avlägset nu när vi närmar oss årets mörkaste
-  dagar. Vi vill gärna lysa upp din tillvaro, så kom på vår julfest.
+  dagar. Vi vill gärna lysa upp din tillvaro, så kom på vår julfest och ta en
+  mugg glögg.
 image: /img/bryggudden_bla_bron.jpg
 ---
 Lorem ipsum dolor sit amet, an nec erant pertinacia persequeris, ne eam inani simul voluptaria. Legere disputando et vix, ut vide verterem forensibus est. Eos eu dicat harum ceteros, id primis equidem quo. Ne vim agam nulla concludaturque. Graeco omnesque id qui.
