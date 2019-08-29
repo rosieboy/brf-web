@@ -1,9 +1,7 @@
 ---
-title: BRF Bryggudden 1
 fnamn: BRF Bryggudden 1
 orgnummer: 769622-9991
-bild: /img/about-single-origin.jpg
-image: /img/about-single-origin.jpg
+bild: /img/bryggudden_night.jpg
 styrelsemedlemmar:
   - epost: ff@me.com
     funktion: Styrelseordförande
@@ -22,6 +20,6 @@ styrelsemedlemmar:
     lagenhet: '2101'
     mobil: 070-12345679
     namn: Andy Pandy
-    personbild: /img/about-sustainable-farming.jpg  
+    personbild: /img/about-sustainable-farming.jpg
 ---
 
