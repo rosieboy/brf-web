@@ -84,6 +84,8 @@ collections: # A list of collections the CMS should be able to edit
         label: "Styrelse"
         name: "styrelse"
         fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Föreningens namn, name: fnamn, widget: string}
           - {label: Organisationsnummer, name: orgnummer, widget: string}
           - {label: Image, name: image, widget: image}
