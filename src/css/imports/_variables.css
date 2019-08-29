@@ -1,7 +1,7 @@
 :root {
 	/* Colors */
-	--primary: rgba(53, 92, 165, 0.623);
-	--highlight: rgba(254, 213, 198, 1);
+	--primary: rgb(53, 115, 165);
+	--highlight: rgb(198, 213, 254);
 	--white: rgba(255, 255, 255, 1);
 	--off-white: rgba(255, 253, 252, 1);
 	--grey-1: rgba(245, 243, 242, 1);

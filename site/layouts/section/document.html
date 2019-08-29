@@ -5,7 +5,7 @@
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		{{ .Content }}
+		<h2 class="f3 lh-title b mb3 grey-3">{{ .Content }}</h2>
 
 		<div>
         {{ range .Pages }}
@@ -13,7 +13,8 @@
             <h4 class="f4 b lh-title mb2 primary">{{ .Params.File_Type }}</h4>
           <p><a href="{{ .Params.Url }}" target="_blank">{{ .Params.Title }}</a> {{ .Content }}</p>
         </div>
-			  {{ end }}
+        {{ end }}
+    </div>
 	</div>
 </div>
 
