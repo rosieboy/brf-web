@@ -86,5 +86,13 @@ pricing:
         - Unlimited varieties
       plan: Custom
       price: '?'
+    - description: Din lokala leverantör
+      items:
+        - 1 kg kaffe i månaden
+        - Både malda och omalda bönor
+        - Mörkrost och mellanrost
+        - Hur många sorter som helst
+      plan: Löfbergs
+      price: '100'
 ---
 
