@@ -91,19 +91,19 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
       - file: "site/content/documents/_index.md"
-        label: "Documents"
+        label: "Dokument"
         name: "documents"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Sidans namn, name: title, widget: string}
+          - {label: Sidans undertitel, name: subtitle, widget: string}
+          - {label: Bild, name: image, widget: image}
           - label: Documents
             name: documents
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Date, name: date, widget: datetime}
-              - {label: File URL, name: url, widget: file}
+              - {label: Dokumenttitel, name: document_title, widget: string}
+              - {label: Datum, name: document_date, widget: datetime}
+              - {label: Fil, name: document_url, widget: file}
       - file: "site/content/styrelsen/_index.md"
         label: "Styrelse"
         name: "styrelse"
