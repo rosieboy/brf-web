@@ -15,5 +15,9 @@ documents:
     document_description: Skiss på köksmiljö i Bryggudden
     document_title: Köksexempel
     document_url: /img/bryggudden-kök.pdf
+  - document_date: '2019-09-01'
+    document_description: Föreningens ekonomiska plan som den registrerades hos Bolagsverket.
+    document_title: Ekonomisk plan
+    document_url: /img/ekonomiskplan.pdf
 ---
 
