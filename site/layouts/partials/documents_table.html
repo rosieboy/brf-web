@@ -2,13 +2,23 @@
 
 	<div class="mw7 center">
 
-		<h2 class="f2 b lh-title mb3">{{.heading}}</h2>
-		<p class="mw6">{{.description}}</p>
+			<h2 class="f2 b lh-title mb3">Dokument</h2>
+			<p class="mw6">Översikt</p>
 
 		<div class="flex-ns mhn2-ns mw7">
-			{{ range .Params.documents }}
-			<div class="w-33-ns ph2">{{ partial "documents_table-column" . }}</div>
+
+			{{ range .documents }}
+				<div class="ph2">					
+						<!-- Document link -->
+						<p class="primary f3 b tc lh-title center">
+							<a href="{{ .document_url }}" target="_blank">{{ .document_title }}</a>
+						</p>
+						<!-- Description -->
+						<p class="b">{{ .document_description }}</p>								
+					
+					</div>
 			{{ end }}
+
 		</div>
 
 	</div>

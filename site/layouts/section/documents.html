@@ -7,14 +7,17 @@
 
 		<h2 class="f3 lh-title b mb3 grey-3">{{ .Content }}</h2>
 
-		<div>
+
+    {{ partial "documents_table" .Params }}
+
+		<!-- <div>
         {{ range .Params.documents }}
         <div>
             <h4 class="f4 b lh-title mb2 primary">{{ .document_date }}</h4>
             <a href="{{ .document_url }}" target="_blank">{{ .document_title }}</a>
         </div>
         {{ end }}
-    </div>
+    </div> -->
 	</div>
 </div>
 

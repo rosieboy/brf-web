@@ -102,6 +102,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Dokumenttitel, name: document_title, widget: string}
+              - {label: Beskrivning, name: document_description, widget: string}
               - {label: Datum, name: document_date, format: "YYYY-MM-DD", widget: datetime}
               - {label: Fil, name: document_url, widget: file}
       - file: "site/content/styrelsen/_index.md"
