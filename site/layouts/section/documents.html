@@ -2,20 +2,16 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-
-jkshdflkjh lkjashdk lfhskljd flkjshdlfkj klsdfh ks
-
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
 		<h2 class="f3 lh-title b mb3 grey-3">{{ .Content }}</h2>
 
 		<div>
-        {{ range .params.documents }}
+        {{ range .Params.documents }}
         <div>
-           Hejj hej hoo
-            <h4 class="f4 b lh-title mb2 primary">{{ .date }}</h4>
-          <p><a href="{{ .url }}" target="_blank">{{ .title }}</a></p>
+            <h4 class="f4 b lh-title mb2 primary">{{ .document_date }}</h4>
+            <a href="{{ .document_url }}" target="_blank">{{ .document_title }}</a>
         </div>
         {{ end }}
     </div>
