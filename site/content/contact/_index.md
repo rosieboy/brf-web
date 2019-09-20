@@ -1,7 +1,6 @@
 ---
 title: Kontakta oss
-logo: /img/bryggudden_sunset_2.jpg
-image: /img/bryggudden_sunset_2.jpg
+logo: /img/4an28d293shov21u.jpg
 contact_entries:
   - heading: Vår adress
     text: Redaretorget 1 652 16 Karlstad
