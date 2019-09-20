@@ -1,7 +1,7 @@
 ---
 title: BRF Bryggudden 1
 subtitle: Högst och vackrast i Karlstad
-image: /img/bryggudden_winter_sunrise.jpg
+image: /img/img_2294.jpeg
 blurb:
   heading: Bryggudden
   text: >-
