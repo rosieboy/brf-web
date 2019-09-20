@@ -3,7 +3,7 @@ title: 'BRF Bryggudden 1:s styrelse'
 subtitle: Presentation och kontaktuppgifter
 fnamn: BRF Bryggudden 1
 orgnummer: 769622-9991
-image: /img/bryggudden_night.jpg
+image: /img/img_2289.jpeg
 bild: /img/american-3767644_1920.jpg
 styrelsemedlemmar:
   - epost: ff@me.com
